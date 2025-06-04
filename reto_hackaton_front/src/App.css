@@ -1,0 +1,148 @@
+body, .app-bg {
+  background: #f4f6fb;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.dashboard {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+}
+.header h1 {
+  margin: 0;
+  font-size: 2.3rem;
+  color: #283a58;
+}
+
+.cerrar-btn {
+  background: #ff7272;
+  color: #fff;
+  padding: 0.6em 1.3em;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.cerrar-btn:hover { background: #e63c3c; }
+
+.contenedores {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.caja {
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(60,80,140,0.10);
+  padding: 2.2em 2em 2em 2em;
+  background: #fff;
+  margin-bottom: 2em;
+  min-width: 350px;
+  max-width: 650px;
+  width: 100%;
+}
+.modulo-1 { background: #eaf0fb; }
+.modulo-2 { background: #eaffea; }
+.modulo-3 { background: #ffeaea; }
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.login-form h2 { color: #253d8d; }
+.login-form input, .login-form button {
+  padding: 0.6em;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+.login-form button {
+  background: #5c8dfb;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.login-form button:hover { background: #2d63d8; }
+.error { color: #d22; margin-top: -10px; }
+
+.formulario-nueva {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.formulario-nueva h2 { color: #217a3b; }
+.formulario-nueva input, .formulario-nueva select, .formulario-nueva button {
+  padding: 0.7em;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+.formulario-nueva button {
+  background: #2fb962;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.formulario-nueva button:hover { background: #217a3b; }
+.mensaje { color: #1b7a1b; }
+
+.solicitudes-listado h2 { color: #b11e1e; }
+.filtros {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.filtros input, .filtros select {
+  padding: 0.5em;
+  border-radius: 7px;
+  border: 1px solid #bbb;
+}
+
+.solicitudes-listado table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 13px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(80,80,80,0.03);
+}
+.solicitudes-listado th, .solicitudes-listado td {
+  padding: 0.7em;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+.solicitudes-listado tr:hover { background: #f9f9f9; }
+
+.ap-btn {
+  background: #48bb78;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.3em 0.8em;
+  margin-right: 0.3em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.ap-btn:hover { background: #217a3b; }
+
+.rej-btn {
+  background: #f56565;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.3em 0.8em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.rej-btn:hover { background: #b11e1e; }
